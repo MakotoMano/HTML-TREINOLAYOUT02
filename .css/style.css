@@ -1,0 +1,62 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    margin: 20px 350px;
+    gap: 100px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+section div h1 {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+section div p {
+    word-spacing: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+section div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 20%;
+    height: 15%;
+    font-weight: bold;
+}
+
+section div a:hover {
+    width: 25%;
+    height: 20%;
+    transition: 0.5s;
+    color: var(--transition-color);
+}
+
+.solucao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 20px 100px; 
+    border: solid var(--primary-color) 1px;
+}
+
+section div figure {
+    margin:20px;
+}
